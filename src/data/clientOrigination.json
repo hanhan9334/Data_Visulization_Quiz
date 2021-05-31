@@ -1,0 +1,123 @@
+{
+	"ClientOrigination": [
+		{
+			"ClientOrigination": "FeedA",
+			"Count": 412,
+			"Percentage": 55.68,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "FeedB",
+			"Count": 91,
+			"Percentage": 12.3,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "FeedC",
+			"Count": 72,
+			"Percentage": 9.73,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "FeedD",
+			"Count": 70,
+			"Percentage": 9.46,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "FeedE",
+			"Count": 25,
+			"Percentage": 3.38,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "FeedF",
+			"Count": 22,
+			"Percentage": 2.97,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "FeedG",
+			"Count": 16,
+			"Percentage": 2.16,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "FeedH",
+			"Count": 12,
+			"Percentage": 1.62,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "FeedI",
+			"Count": 6,
+			"Percentage": 0.81,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "FeedJ",
+			"Count": 5,
+			"Percentage": 0.68,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "Feed0",
+			"Count": 2,
+			"Percentage": 0.27,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "Feed1",
+			"Count": 2,
+			"Percentage": 0.27,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "Feed2",
+			"Count": 1,
+			"Percentage": 0.14,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "Feed3",
+			"Count": 1,
+			"Percentage": 0.14,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "Feed4",
+			"Count": 1,
+			"Percentage": 0.14,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "Feed5",
+			"Count": 1,
+			"Percentage": 0.14,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		},
+		{
+			"ClientOrigination": "Feed6",
+			"Count": 1,
+			"Percentage": 0.14,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_origination_distribution"
+		}
+	]
+}

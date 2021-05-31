@@ -1,0 +1,46 @@
+{
+	"ClientType": [
+		{
+			"ClientType": "Kiosk",
+			"Count": 653,
+			"Percentage": 76.82,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_type_distribution"
+		},
+		{
+			"ClientType": "Request",
+			"Count": 190,
+			"Percentage": 22.35,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_type_distribution"
+		},
+		{
+			"ClientType": "New Request",
+			"Count": 3,
+			"Percentage": 0.35,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_type_distribution"
+		},
+		{
+			"ClientType": "Lobby1",
+			"Count": 2,
+			"Percentage": 0.24,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_type_distribution"
+		},
+		{
+			"ClientType": "Lobby2",
+			"Count": 1,
+			"Percentage": 0.12,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_type_distribution"
+		},
+		{
+			"ClientType": "Lobby3",
+			"Count": 1,
+			"Percentage": 0.12,
+			"metrics_meta1": "retail_sales_detail",
+			"metrics_meta2": "clients_type_distribution"
+		}
+	]
+}
