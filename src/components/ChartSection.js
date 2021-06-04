@@ -2,13 +2,12 @@ import React from "react"
 import Button from "./fragments/Button"
 import PieChart from "./fragments/charts/PieChart"
 
-const ClientOriginationSection = ({ summary, data, loading }) => {
+const ChartSection = ({ title, summary, data, loading }) => {
 	const [hide, setHide] = React.useState(true)
 	let labels = []
 	let values = []
-	const title = "Client Origination"
-	if (!loading) {
-		//Filter in entries that contribute more than 10%
+	if (!loading && data != null) {
+		//Filter in entries that contribute more than 5%
 		labels = data
 			.filter((element) => {
 				return +element.Percentage > 5
@@ -27,16 +26,16 @@ const ClientOriginationSection = ({ summary, data, loading }) => {
 		values.push(sum)
 	}
 
+	console.log(data)
 	return (
-		<div style={{ textAlign: "center" }}  onClick={() => setHide(false)}>
-			<Button
-				textTop={title}
-				textBack={loading ? "loading" : summary["ClientOrigination"]}
-			/>
+		<div style={{ textAlign: "center" }} onClick={() => setHide(false)}>
+			<Button textTop={title} textBack={loading ? "loading" : summary} />
 			{hide ? (
 				<div></div>
+			) : data === null ? (
+				<div style={{ textAlign: "center" }}>Data is not available</div>
 			) : (
-				<div style={{width:"100%"}}>
+				<div style={{ width: "100%" }}>
 					<PieChart labels={labels} values={values} title={title} />
 				</div>
 			)}
@@ -44,4 +43,4 @@ const ClientOriginationSection = ({ summary, data, loading }) => {
 	)
 }
 
-export default ClientOriginationSection
+export default ChartSection

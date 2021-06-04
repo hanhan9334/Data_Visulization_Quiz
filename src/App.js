@@ -1,9 +1,7 @@
 import React from "react"
 import * as d3 from "d3"
 import "./App.css"
-import ClientSection from "./components/ClientSection"
-import ClientTypeSection from "./components/ClientTypeSection"
-import ClientOriginationSection from "./components/ClientOrigintionSection"
+import ChartSection from "./components/ChartSection"
 
 //The json file is stored on gist. I assume that your data is on cloud , so this may better simulate a real scenario.
 const dataUrl =
@@ -32,22 +30,27 @@ const App = () => {
 	return (
 		<div className="ui three column doubling stackable grid container">
 			<div className="column">
-				<ClientSection
-					summary={loading ? null : data["Summary data"][0]}
+				<ChartSection
+					title={"Client"}
+					summary={loading ? null : data["Summary data"][0]["Client"]}
+					data={null}
 					loading={loading}
 				/>
 			</div>
-
 			<div className="column">
-				<ClientTypeSection
-					summary={loading ? null : data["Summary data"][0]}
+				<ChartSection
+					title={"Client Type"}
+					summary={loading ? null : data["Summary data"][0]["ClientType"]}
 					data={loading ? null : data["ClientType"]}
 					loading={loading}
 				/>
 			</div>
 			<div className="column">
-				<ClientOriginationSection
-					summary={loading ? null : data["Summary data"][0]}
+				<ChartSection
+					title={"Client Origination"}
+					summary={
+						loading ? null : data["Summary data"][0]["ClientOrigination"]
+					}
 					data={loading ? null : data["ClientOrigination"]}
 					loading={loading}
 				/>
